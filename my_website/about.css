@@ -1,0 +1,27 @@
+body {
+    background-color: #f2f2f2;
+}
+a {
+    font-family: "sans-serif", fantasy;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    color: black;
+}
+h1 {
+    font-family: "sans-serif", fantasy;
+    font-weight: bold;
+}
+table {
+    
+}
+tr {
+    border: 5px, solid, red;
+    text-align: center;
+    background-color: #e6e6e6;
+}
+th {
+    text-align: center;
+    background-color: #808080;
+}
