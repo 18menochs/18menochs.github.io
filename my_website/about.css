@@ -2,7 +2,7 @@ body {
     background-color: #f2f2f2;
 }
 a {
-    font-family: "sans-serif", fantasy;
+    font-family: sans-serif;
     text-decoration: none;
     font-size: 20px;
     margin-left: 20px;
@@ -10,18 +10,32 @@ a {
     color: black;
 }
 h1 {
-    font-family: "sans-serif", fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 table {
-    
+    margin:auto;
 }
 tr {
-    border: 5px, solid, red;
     text-align: center;
     background-color: #e6e6e6;
 }
 th {
     text-align: center;
     background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div .header {
+    background-color: red;
+    width: 500px;
+    height: 100px;
+    border: 20px, solid, black;
+}
+#heading {
+    text-align: center;
+}
+.links:hover {
+    color: white;
+    background-color: red;
 }
