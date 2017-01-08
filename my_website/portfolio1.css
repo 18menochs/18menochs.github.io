@@ -7,12 +7,13 @@ body {
 }
 .body {
     width: 80%;
-    height: 1000px;
+    height: 500%;
     background-color: white;
     border-radius: 7px;
     margin: auto;
     padding-top: 1%;
     padding-left: 2.5%;
+    padding-right: 2.5%;
     /*margin-top: 50px;*/
     margin-top: 0px;
 }
@@ -29,7 +30,7 @@ body {
 }
 #heading {
     color: white;
-    font-family: 'Coiny', cursive;
+    font-family: 'Merienda+One', Helvetica, sans-serif;
     font: 400 100px/1.2 “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
     text-shadow: 3px 3px 3px #fff;
     text-align: center;
@@ -71,15 +72,12 @@ a {
 .links:hover {
     background-color: red;
 }
-#portfoliolink {
+#homelink {
     background-color: white;
     color: black;
 }
-.h3 {
-    font-size: 20px;
-    padding: 5px;
-    margin-left: 5px;
-    float: left;
+.firstgame {
+    font-size: 25px;
     color: black;
     font-family: sans-serif;
 }
@@ -89,18 +87,27 @@ a {
     color: #2b2b2b;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
-#paragraph1 {
-    font-size: 15px;
-    margin-top: 75px;
-    margin-left: -95px;
+#mygamecreated1 {
+    float: right;
+    margin-top: -175px;
+    margin-right: 500px;
 }
-#hw {
-    float: left;
-    margin-top: 170px;
-    margin-left: -760px;
+#myfirstgame {
+    float: right;
+    margin-top: -150px;
+    margin-right: 475px;
 }
-#paragraph2 {
-    font-size: 15px;
-    margin-top: 75px;
-    margin-left: 25px;
+.h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+#interactivelink {
+    text-decoration: underline;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#interactivelink:hover {
+    color: #00ffed;
 }

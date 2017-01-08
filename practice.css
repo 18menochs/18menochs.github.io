@@ -5,7 +5,7 @@ p .redtext {
     color: red;
 }
 .important {
-    font-style italic;
+    font-style: italic;
 }
 #mine {
     font-weight: bold;
